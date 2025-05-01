@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #F5EEDC;
+    color: #183B4E;
+    line-height: 1.8;
+    }
+    header {
+    background-color: #27548A;
+    color: white;
+    padding: 20px 20px;
+    }
+    .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    }
+    header p {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+    }
+    #lang-toggle {
+    background-color: #DDA853;
+    color: #183B4E;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    }
+    .container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    max-width: 1300px;
+    margin: 20 auto;
+    }
+    .sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #E6D8BD;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    }
+    .sidebar h2 {
+    color: #27548A;
+    }
+    .profile-photo {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+    }
+    .main-content {
+    flex: 2;
+    padding: 20px;
+    }
+    .main-content h2 {
+    color: #27548A;
+    margin-top: 40px;
+    }
+    .skill {
+    margin-bottom: 15px;
+    }
+    input[type="range"] {
+    width: 100%;
+    accent-color: #DDA853;
+    }
+    a {
+    color: #27548A;
+    text-decoration: none;
+    }
+    a:hover {
+    text-decoration: underline;
+    }
+    footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #27548A;
+    color: white;
+    margin-top: 40px;
+    }
+    @media (max-width: 720px) {
+    header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px;
+    }
+    .header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .lang-toggle {
+    margin-top: 10px;
+    font-size: 14px;
+    }
+    .container {
+    flex-direction: column;
+    padding: 0 10px;
+    }
+    .sidebar, .main-content {
+    width: 100%;
+    padding: 20px 10px;
+    }
+    .sidebar {
+    align-items: center;
+    text-align: center;
+    }
+    .sidebar section {
+    margin: 20px 0;
+    }
+    .profile-photo {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 15px;
+    }
+    .skill input[type="range"] {
+    width: 100%;
+    }
+    pre {
+    overflow-x: auto;
+    }
+    }
+    @media (max-width: 480px) {
+    header h1 {
+    font-size: 24px;
+    }
+    header p {
+    font-size: 16px;
+    }
+    .lang-toggle {
+    font-size: 12px;
+    padding: 6px 10px;
+    }
+    .main-content p {
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 0 5px;
+    }
+    .skill {
+    font-size: 14px;
+    }
+    .sidebar {
+    padding: 10px;
+    }
+    .sidebar section h2,
+    .main-content h2 {
+    font-size: 18px;
+    }
+    .sidebar ul li {
+    font-size: 14px;
+    }
+    footer {
+    font-size: 12px;
+    }
+    }
